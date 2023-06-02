@@ -1,4 +1,5 @@
-import group from './Group.png'
+import './Hero.css';
+import group from './images/Group.png'
 function Hero () {
     return (
         <div className='hero'>

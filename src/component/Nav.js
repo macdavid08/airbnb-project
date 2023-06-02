@@ -1,4 +1,5 @@
-import logo from './airbnb.png'
+import'./Nav.css';
+import logo from './images/airbnb.png'
 
 function Nav() {
     return (

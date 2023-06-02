@@ -1,0 +1,60 @@
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.card--badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+  .card--img {
+    width: 176px;
+    height: 40dvh;
+  }
+  
+  .card--span {
+    font-size: 12px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+  }
+  
+  .card--span > span {
+    padding: 0 3px;
+  }
+  
+  .card--star {
+    width: 14px;
+    height: 14px;
+  }
+  
+  .spn {
+    color: #918E9B;
+  }
+  
+  .card--entity{
+    width: 176px;
+    font-size: 12px;
+    box-sizing: border-box;
+  }
+  
+  .card--entity p {
+    margin:0;
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 5px;
+  }
+
+  .bold {
+    font-weight: 500;
+  }
